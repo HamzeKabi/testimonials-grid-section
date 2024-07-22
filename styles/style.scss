@@ -81,6 +81,7 @@ body {
     }
     .card:nth-child(1) {
       background-color: $moderate-violet;
+      grid-area: card1;
 
       .img-name-degree {
         img {
@@ -91,10 +92,12 @@ body {
 
     .card:nth-child(2) {
       background-color: $Very-dark-grayish-blue;
+      grid-area: card2;
     }
 
     .card:nth-child(3) {
       background-color: $white;
+      grid-area: card3;
 
       .img-name-degree {
         
@@ -116,6 +119,7 @@ body {
     
     .card:nth-child(4) {
       background-color: $very-dark-blackish-blue;
+      grid-area: card4;
 
       .img-name-degree {
         img {
@@ -126,6 +130,7 @@ body {
     
     .card:nth-child(5) {
       background-color: $white;
+      grid-area: card5;
 
       .img-name-degree {
         
@@ -147,12 +152,23 @@ body {
   }
 }
 
-// @media only screen and (max-width: 376px) {
-//   body {
-//     background-color: black;
+@media only screen and (min-width: 1439px) {
+  body {
+    .container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-areas: 
+        "card1 card1 card2 card5"
+        "card3 card4 card4 card5";
+      gap: 1.875rem;
+      padding: 0;
+      margin: 10.25rem 10.3rem;
 
-//     .container {
-//       background-color: black;
-//     }
-//   }
-// }
+      .card {
+        margin: 0;
+        padding: 1.56rem 1.875rem 0 1.875rem;
+      }
+    }
+  }
+}
