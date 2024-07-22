@@ -38,5 +38,5 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ## Author
 
-- Website - [https://hamzekabi.github.io/testimonials-grid-section/](https://hamzekabi.github.io/testimonials-grid-section/)
+- Github - [https://github.com/HamzeKabi](https://github.com/HamzeKabi)
 - Frontend Mentor - [@HamzeKabi](https://www.frontendmentor.io/profile/HamzeKabi)
