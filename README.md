@@ -10,8 +10,6 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
@@ -25,7 +23,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 ### Links
 
 - Solution URL: [https://github.com/HamzeKabi/testimonials-grid-section](https://github.com/HamzeKabi/testimonials-grid-section)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://hamzekabi.github.io/testimonials-grid-section/](https://hamzekabi.github.io/testimonials-grid-section/)
 
 ## My process
 
