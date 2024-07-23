@@ -8,6 +8,7 @@ body {
 }
 body .container {
   padding: 4.375rem 1.56rem;
+  margin: 0 10vw;
 }
 body .container .card {
   border-radius: 0.7rem;
@@ -112,7 +113,7 @@ body .container .card:nth-child(5) .quote2 {
   color: hsla(217, 19%, 35%, 0.6);
 }
 
-@media only screen and (min-width: 1439px) {
+@media only screen and (min-width: 950px) {
   body .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -120,7 +121,22 @@ body .container .card:nth-child(5) .quote2 {
     grid-template-areas: "card1 card1 card2 card5" "card3 card4 card4 card5";
     gap: 1.875rem;
     padding: 0;
-    margin: 10.25rem 10.3rem;
+    margin: 10vh 10vw;
+  }
+  body .container .card {
+    margin: 0;
+    padding: 1.56rem 1.875rem 0 1.875rem;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 949px) {
+  body .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "card2 card4" "card1 card4" "card1 card5" "card3 card5";
+    gap: 1.875rem;
+    padding: 0;
+    margin: 10vh 10vw;
   }
   body .container .card {
     margin: 0;
